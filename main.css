@@ -87,6 +87,8 @@ body > .info {
   display: flex;
   font-size: var(--font-small);
   color: var(--blue-color);
+  padding-left: var(--padding);
+  padding-top: var(--padding);
 }
 .info .hashtag li {
   margin-right: var(--padding);
@@ -96,6 +98,7 @@ body > .info {
   align-items: flex-start;
 }
 .info .metadata .tiltleAndButton .title {
+  padding-left: var(--padding);
   font-size: var(--font-medium);
   display: -webkit-box;        /*┐*/
   -webkit-box-orient: vertical;/*│ line clamp*/
@@ -117,7 +120,8 @@ body > .info {
 }
 .info .view {
   font-size: var(--font-small);
-  color: var(--grey-dark-color)
+  color: var(--grey-dark-color);
+  padding-left: var(--padding);
 }
 .info .actions{
   display: flex;
