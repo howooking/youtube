@@ -208,7 +208,7 @@ body > .info {
 .upNext img {
   width: calc(200 / 9 * 16);
   /* max-height: 200px; */
-  min-width: 270px;
+  min-width: 100px;
   margin-right: var(--padding);
 }
 .upNext ul {
